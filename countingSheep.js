@@ -1,11 +1,12 @@
 const countSheepEl = document.querySelector(".codewars-el")
+let listItems = document.createElement("li")
 
 
-
+const arrayOfSheep = [3,4,5,6,7,9,44]
 function countSheeps(arr){
-    countSheepEl.textContent =  arr.filter(Boolean).length 
+    return arr.filter(Boolean).length 
 }
 
-let someNums = [5,10,15,20,25,30,35,40,45,50]
-countSheeps(someNums)
-
+countSheepEl.appendChild(listItems) 
+listItems.append(`Counting Sheep = ${countSheeps(arrayOfSheep)}`)
+listItems.className = "counting-sheep"
