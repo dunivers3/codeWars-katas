@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 4px solid #002B36;
+    font-size: 25px;
+    background: #025A6C;
+    text-align: center;
+    color: white;
+}
+h1{
+    background: black;
+    color: gold;
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+li{
+    font-style: italic;
+}
