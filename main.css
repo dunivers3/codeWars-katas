@@ -16,4 +16,12 @@ h1{
 }
 li{
     font-style: italic;
+    /*list-style: none;*/
+}
+
+.btn-el{
+    background-color: purple;
+    color: gold;
+    font-weight: 700;
+    font-family: 'Nosifer', cursive;
 }
