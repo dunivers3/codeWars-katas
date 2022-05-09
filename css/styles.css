@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 4px solid #002B36;
+  font-size: 25px;
+  background: #025A6C;
+  text-align: center;
+  color: white; }
+
+h1 {
+  background: black;
+  color: gold;
+  font-size: 32px;
+  font-weight: 700;
+  text-decoration: underline; }
+
+li {
+  font-style: italic;
+  background-color: #025A6C;
+  /*list-style: none;*/ }
+
+.btn-el {
+  background-color: purple;
+  color: gold;
+  font-weight: 700;
+  font-family: 'Nosifer', cursive; }
+
+.answer-btn {
+  font-family: "Nosifer", cursive;
+  font-size: 35px;
+  border: 1px solid red;
+  border-radius: 8px;
+  padding: 5px;
+  background-color: black; }
