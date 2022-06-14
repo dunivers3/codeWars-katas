@@ -4,6 +4,8 @@ let inputEl = document.querySelector(".countPositivesSumNegatives-el")
 inputEl.innerHTML = `<input class="input-el"> <button class="countButton">Check</button>`
 
 
+let valuesToCheck = []
+valuesToCheck =  Number(document.querySelector(".input-el").value)
 
 function countPositiveSumNegative(input){
     let newArr = []
@@ -36,6 +38,7 @@ function countPositiveSumNegative(input){
 }
 
 document.querySelector(".countButton").addEventListener("click", () => {
-    let valuesToCheck = Number(document.querySelector(".input-el").value)
+    console.log(valuesToCheck)
     inputEl.innerText = `The values are ${countPositiveSumNegative(valuesToCheck)}`
 })
+//The code doesn't work on the DOM. To be refined ()
