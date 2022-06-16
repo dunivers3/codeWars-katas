@@ -1,11 +1,11 @@
 
 codeWarsEl.appendChild(document.createElement("li")).classList.add("countPositivesSumNegatives-el")
 let inputEl = document.querySelector(".countPositivesSumNegatives-el")
-inputEl.innerHTML = `<input class="input-el"> <button class="countButton">Check</button>`
+inputEl.innerHTML = `<input id="input-el"> <button class="countButton">Check</button>`
 
 
 let valuesToCheck = []
-valuesToCheck =  Number(document.querySelector(".input-el").value)
+valuesToCheck =  Number(document.getElementById("input-el").value)
 
 function countPositiveSumNegative(input){
     let newArr = []
