@@ -22,4 +22,4 @@ function basicOpWithSwitchCase(operator, num1, num2) {
     }
 }
 
-basicOpWithSwitchCase("(", 77, 11)
+//basicOpWithSwitchCase("(", 77, 11)

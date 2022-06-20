@@ -19,4 +19,4 @@ function basicOp(operation, value1, value2){
 }
 
 
-basicOp("-", 5, 3)
+//basicOp("-", 5, 3)

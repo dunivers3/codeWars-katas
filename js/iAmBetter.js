@@ -8,4 +8,4 @@ function iAmBetterThanAverage(classScore, myScore){
     }
 }
 
-iAmBetterThanAverage([34,55,39,66,23,43,72], 88)
+//iAmBetterThanAverage([34,55,39,66,23,43,72], 88)
