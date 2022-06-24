@@ -22,11 +22,27 @@ function stringClean(s) {
        function stringClean(s){
         //   Used regex: \d+ the d will replace all digits and the plus sign the adjacent digits
         //   The /g means global, so it  does it in one go. Also could work with (/[0-9]/g, '') instead.
-          let str = s.replace(/\d/g, '') 
+          let str = s.replace(/\d+/g, '') 
            console.log(str)
         }       
 
 
 }
+
+
+//another solution
+function stringClean(s){
+    return s.replace(/[0-9]/g, '');
+  }
+
+//and another
+function stringClean(s){
+    return s.replace(/\d/g, "");
+  }
+
+//and using split and filter
+function stringClean(s){
+    return s.split('').filter((n) => n != parseInt(n)).join('');
+  }
 
 stringClean("Thi1s i1s a4 co0mpute3r")
