@@ -14,6 +14,9 @@ h1 {
   font-weight: 700;
   text-decoration: underline; }
 
+.codewars-el {
+  border: 2px dotted yellowgreen; }
+
 li {
   font-style: italic;
   background-color: #025A6C;

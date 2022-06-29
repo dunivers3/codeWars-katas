@@ -5,16 +5,16 @@ inputEl.innerHTML = `<input id="input-el"> <button class="countButton">Check</bu
 
 
 let valuesToCheck = []
-valuesToCheck =  Number(document.getElementById("input-el").value)
 
 function countPositiveSumNegative(input){
+    valuesToCheck =  Number(document.querySelector("#input-el").value)
     let newArr = []
     let positiveNumber = 0
     let negativeNumber = 0
 
     //Validate Input
     if(input === null || input.length === 0)
-        return newArr
+        console.log(newArr)
     
     //Loop through array of Numbers
     for(let i = 0; i < input.length; i++){
@@ -34,7 +34,7 @@ function countPositiveSumNegative(input){
     newArr.push(positiveNumber)
     newArr.push(negativeNumber)
 
-    return newArr
+    console.log(newArr)
 }
 
 document.querySelector(".countButton").addEventListener("click", () => {

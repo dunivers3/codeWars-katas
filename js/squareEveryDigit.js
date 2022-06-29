@@ -10,7 +10,24 @@ function squareDigits(num){
      */
     let numsToBeSquared = num.split("").map(Number)
     let optimus = numsToBeSquared.map( element => Math.pow(element, 2) )
-    console.log(optimus.join(""))
+    console.log(parseInt(optimus.join("")))
 }
 
 squareDigits("3435") //916925
+
+
+
+
+
+
+function squareDigits2(num){
+    var array = num.toString().split('').map( function(int) {
+        console.log(array)
+        var i = parseInt(int);
+        console.log(i * i);
+        return i * i;
+    });
+        
+    console.log(parseInt(array.join("")));
+}
+squareDigits2(3435)
