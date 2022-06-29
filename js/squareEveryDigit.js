@@ -13,7 +13,7 @@ function squareDigits(num){
     console.log(parseInt(optimus.join("")))
 }
 
-squareDigits("3435") //916925
+//squareDigits("3435") //916925
 
 
 
@@ -30,4 +30,4 @@ function squareDigits2(num){
         
     console.log(parseInt(array.join("")));
 }
-squareDigits2(3435)
+//squareDigits2(3435)
