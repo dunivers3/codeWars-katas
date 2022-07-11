@@ -8,7 +8,7 @@ function seriesSum(n) {
      * P: 
      */
     let sum = 0;
-    for (i = 0; i < n; i++) {
+    for (let i = 0; i < n; i++) {
         sum += 1 / (1 + i * 3);
     }
 
