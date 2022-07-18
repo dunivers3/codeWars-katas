@@ -2,8 +2,8 @@ codeWarsEl.appendChild(document.createElement("li")).classList.add("summation-el
 
 
 let sum = 0
-let summation = function (num){
-    for(i = 1; i <= num; i++){
+let summation = function (num) {
+    for (let i = 1; i <= num; i++) {
         sum += i
     }
     return sum
