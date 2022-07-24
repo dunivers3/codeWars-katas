@@ -9,7 +9,7 @@ const number = function (arr) {
      * 3. return the index concatinated with the item into the new array
      */
     let newArr = arr.map((element, idx) => {
-        return idx.concat(element)
+        return (`${idx + 1}: ${element}`)
     })
     console.log(newArr)
 }
